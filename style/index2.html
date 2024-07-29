@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced CSS Transition Example</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      transition: width 2s ease, height 4s ease-in, background-color 1s ease-out;
+    }
+
+    .box:hover {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Example</title>
+    <style>
+        /* Định nghĩa keyframes */
+        @keyframes slide {
+            from {
+                transform: translate(0,0);
+                
+            }
+
+            to {
+                transform: translate(300px, 300px);
+            }
+        }
+
+        /* Áp dụng animation vào phần tử */
+        .box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /* tên animation */
+            animation-name: slide;
+            /*thời gian chạy animation */
+            animation-duration: 2s;
+            /* thời gian tạm hoãn trước khi chạy */
+            animation-delay: 0.3s;
+            /* đường cong thời gian của animation */
+            animation-timing-function: ease-in-out;
+            /* số vòng lặp của animation */
+            animation-iteration-count: infinite;
+            /* hướng của animation */
+            animation-direction: alternate;
+            /* cách mà phần tử duy trì trạng thái trước và sau khi chạy animation */
+            /* forwards: khi animation kết thúc phần tử giữ lại trạng thái cuối cùng của animation */
+            animation-fill-mode: forwards;
+            /* trạng thái của animation */
+            animation-play-state: running;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Transition Example</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      transition: background-color 2s ease-in-out, transform 2s ease-in-out;
+    }
+
+    .box:hover {
+      background-color: blue;
+      transform: rotate(45deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html> -->
+
+
